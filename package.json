@@ -1,0 +1,17 @@
+{
+  "name": "mcp-sdk-reproduction",
+  "version": "1.0.0",
+  "description": "Reproduction scripts for StreamableHTTPServerTransport memory leak",
+  "type": "module",
+  "scripts": {
+    "server": "tsx reproduce-server.ts",
+    "test": "tsx reproduce-test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
